@@ -29,6 +29,20 @@
 // //console.log(AnameArray.reverse())//เรียงกลับ z-a ฮ-ก
 // console.log(AnameArray.slice(0,2))// เอาคำออกมาตามลำดับที่กำหนด
 
-const fruits = ["Banana","Orange","Apple","Mango"]
-console.log(fruits.sort())
-console.log(fruits.reverse())
+// const fruits = ["Banana","Orange","Apple","Mango"]
+// console.log(fruits.sort())
+// console.log(fruits.reverse())
+//JS - Javascript object
+// const me = {
+//     fristName: "thaNaWat",
+//     lastName: "chanTaMas",
+//     age: 20
+// }
+// console.log(me)
+// ประวัติ
+// ชื่อ: "thaNaWat",
+// นามสกุล: "chanTaMas",
+// อายุ: 20
+const me = {
+
+}
