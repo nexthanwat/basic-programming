@@ -43,6 +43,17 @@
 // ชื่อ: "thaNaWat",
 // นามสกุล: "chanTaMas",
 // อายุ: 20
-const me = {
-
-}
+// การบ้าน
+const perSoNalInForMaTion = {
+    fristname:"thaNaWat",
+    currentaddress: "56 nunglinjee 17",
+    subdistrict: "narratives",
+    street: "nunglinjee",
+    districk: "narativas",
+    province:"Sarthon",
+    postalcode: 10120,
+    tel: "0233445577",
+    numberphone: "0676050500",
+    email: "buydeeaddgmail.com", 
+    }
+console.log(perSoNalInForMaTion)
