@@ -131,3 +131,16 @@
 // car.forEach(function(c){
 //     console.log(c)
 // })
+
+const car: string[] = ['Honda', 'Yamaha', 'Toyota', 'Suzuki', 'Mazda']
+for (let i = 0; i < car.length; i++) {
+    if (car[i] === 'Yamaha') {
+        console.log('รถซื้อแกง จะแรงได้ไง')
+    }
+}
+
+const car: string[] = ['Honda', 'Yamaha', 'Toyota', 'Suzuki', 'Mazda']
+
+car.forEach(function(c){
+    console.log(c)
+})
