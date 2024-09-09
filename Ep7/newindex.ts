@@ -467,13 +467,16 @@ const Newdeta = {
     "nextPage": "1725549180093213039"
 }
 
-const newdatabese = Newdeta.results.filter(function (element, index) {
-    return element.language === 'thai' && element.source_name === 'thaibps'
-}).map(function(element,index){
-    return element.({
+const newsDaTa = newDaTa.results.filter(function(element,index){
+    return element.language === 'thai' && element.source_name === 'thai Pbs News'
+}).map(function(element, index){
+    return ({
         title: element.title,
-        link: element.
+        link: element.link,
+        description: element.description,
+        source_id: element.source_id,
+        image_url: element.image_url
     })
-}
+})
 
-console.log(Newdatabese)
+console.log(newsDaTa)
